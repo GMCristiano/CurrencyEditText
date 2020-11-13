@@ -1,6 +1,7 @@
 package com.ccapps.currencyedittextsample
 
 import android.os.Bundle
+import android.text.InputType
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.ccapps.currencyedittext.CurrencyEditText
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         currencyEt.setLocale(Locale("en","US")) //Default Locale.getDefault()
         currencyEt.setDigitsBeforeZero(10) //Default Int.MAX_VALUE
         currencyEt.setDigitsAfterZero(4) // Default 2
+        currencyEt.inputType = InputType.TYPE_CLASS_PHONE //Default InputType.TYPE_CLASS_PHONE
 
         val doubleNumber = findViewById<TextView>(R.id.double_tv)
         currencyEt.addNumericValueChangedListener(object : CurrencyEditText.NumericValueWatcher{
