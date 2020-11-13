@@ -11,8 +11,9 @@ CurrencyEditText is an EditText library for inputting currency values. It suppor
 
 ##### Step 1.
 
-Copy CurrencyEditText to your project
-Gradle dependency comming soon 
+Copy CurrencyEditText to your project.
+Gradle dependency comming soon.
+
 
 ##### Step 2. Configure
 ```kotlin
