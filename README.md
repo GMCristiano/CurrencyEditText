@@ -11,7 +11,7 @@ CurrencyEditText is an EditText library for inputting currency values. It suppor
 
 ##### Step 1.
 
-Copy CurrencyEditTex to your project
+Copy CurrencyEditText to your project
 Gradle dependency comming soon 
 
 ##### Step 2. Configure
@@ -34,6 +34,12 @@ Gradle dependency comming soon
       }
 
   } )
+
+  <[package].CurrencyEditText
+      android:id="@+id/currency_et"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
  ```
 
 ##### Step 3. Enjoy
