@@ -1,2 +1,3 @@
+include ':currencyedittext'
 include ':app'
 rootProject.name = "CurrencyEditTextSample"
