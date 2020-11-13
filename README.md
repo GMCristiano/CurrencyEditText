@@ -3,6 +3,8 @@
 #### Original project: https://github.com/yigitserin/CurrencyEditText
 #### New project updated to Kotlin with some bug fixes and improvements
 
+<img src="https://raw.githubusercontent.com/GMCristiano/CurrencyEditText/main/example.jpg" width="240" height="480" />
+
 CurrencyEditText is an EditText library for inputting currency values. It supports grouping and decimal seperators.
 
 #### known issues
@@ -21,6 +23,7 @@ Gradle dependency comming soon.
   currencyEt.setLocale(Locale("en","US")) //Default Locale.getDefault()
   currencyEt.setDigitsBeforeZero(10) //Default Int.MAX_VALUE
   currencyEt.setDigitsAfterZero(4) // Default 2
+  currencyEt.inputType = InputType.TYPE_CLASS_PHONE //Default InputType.TYPE_CLASS_PHONE
 
   //Extra: Get Double number
   val doubleNumber = findViewById<TextView>(R.id.double_tv)
