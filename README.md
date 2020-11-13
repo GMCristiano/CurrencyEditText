@@ -3,7 +3,7 @@
 #### Original project: https://github.com/yigitserin/CurrencyEditText
 #### New project updated to Kotlin with some bug fixes and improvements
 
-<img src="https://raw.githubusercontent.com/GMCristiano/CurrencyEditText/main/example.jpg" width="240" height="480" />
+<img src="https://raw.githubusercontent.com/GMCristiano/CurrencyEditText/main/example.jpg" width="40%" height="40%" />
 
 CurrencyEditText is an EditText library for inputting currency values. It supports grouping and decimal seperators.
 
