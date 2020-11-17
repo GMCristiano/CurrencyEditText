@@ -42,7 +42,9 @@ Gradle dependency comming soon.
   <[package].CurrencyEditText
       android:id="@+id/currency_et"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"/>
+      android:layout_height="wrap_content"
+      app:digitsBeforeZero="10"
+      app:digitsAfterZero="4"/>
 
  ```
 

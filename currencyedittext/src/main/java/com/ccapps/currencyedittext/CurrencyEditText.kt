@@ -245,6 +245,17 @@ class CurrencyEditText(context: Context?, attrs: AttributeSet?) : AppCompatEditT
     //endregion
 
     init {
+        context?.theme?.obtainStyledAttributes(attrs, R.styleable.CurrencyEditText,
+                0, 0)?.apply {
+
+            try {
+                digitsBeforeZero = getInteger(R.styleable.CurrencyEditText_digitsBeforeZero, digitsBeforeZero)
+                digitsAfterZero = getInteger(R.styleable.CurrencyEditText_digitsAfterZero, digitsAfterZero)
+            } finally {
+                recycle()
+            }
+        }
+
         inputType = InputType.TYPE_CLASS_PHONE
         reload()
         addTextChangedListener(mTextWatcher)
